@@ -28,7 +28,7 @@ This exercise covers
 
 For this demonstration we will use playbooks stored in a Git repository:
 
-**https://github.com/ansible/workshop-examples**
+**https://github.com/damhau/workshop-examples.git**
 
 
 A Playbook to install the Apache web server has already been committed to the directory **rhel/apache**, `apache_install.yml`:
@@ -113,7 +113,7 @@ Now you need the URL to access the repo. Go to the Github repository mentioned a
    </tr>
    <tr>
      <td>SCM URL</td>
-     <td><code>https://github.com/ansible/workshop-examples.git</code></td>
+     <td><code>https://github.com/damhau/workshop-examples.git</code></td>
    </tr>
    <tr>
      <td>SCM UPDATE OPTIONS</td>

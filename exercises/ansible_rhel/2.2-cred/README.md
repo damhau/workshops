@@ -30,26 +30,6 @@ The first thing we need is an inventory of your managed hosts. This is the equiv
 
 There will be one inventory, the **Workshop Inventory**. Click the **Workshop Inventory** then click the **Hosts** button
 
-The inventory information at `~/lab_inventory/hosts` was pre-loaded into the Ansible Tower Inventory as part of the provisioning process.
-
-```bash
-$ cat ~/lab_inventory/hosts
-[all:vars]
-ansible_user=student<X>
-ansible_ssh_pass=PASSWORD
-ansible_port=22
-
-[web]
-node1 ansible_host=22.33.44.55
-node2 ansible_host=33.44.55.66
-node3 ansible_host=44.55.66.77
-
-[control]
-ansible ansible_host=11.22.33.44
-```
-> **Warning**
->
-> In your inventory the IP addresses will be different.
 
 ## Examine Machine Credentials
 

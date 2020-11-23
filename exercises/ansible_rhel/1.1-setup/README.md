@@ -26,20 +26,16 @@ In this lab you work in a pre-configured lab environment. You will have access t
 
 | Role                 | Inventory name |
 | ---------------------| ---------------|
-| Ansible Control Host | ansible        |
-| Managed Host 1       | node1          |
-| Managed Host 2       | node2          |
-| Managed Host 3       | node3          |
+| Ansible Control Host | gvalabhapp01t  |
+| Managed Host 1       | gvalabhapp02t  |
+| Managed Host 2       | gvalabhapp03t  |
+| Managed Host 3       | gvalabhapp04t  |
 
 ## Step 1 - Access the Environment
 
 Login to your control host via SSH:
 
-> **Warning**
->
-> Replace **11.22.33.44** by your **IP** provided to you, and the **X** in student**X** by the student number provided to you.
-
-    ssh studentX@11.22.33.44
+    ssh studentX@gvalabhapp01t
 
 > **Tip**
 >
